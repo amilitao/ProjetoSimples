@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 @WebFilter(urlPatterns="/*")
 public class FiltroTempoDeExecucao implements Filter{
 	
+	
 		
 	@Override
 	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
